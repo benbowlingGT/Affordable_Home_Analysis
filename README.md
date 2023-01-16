@@ -1,10 +1,10 @@
 # Home_analysis
 
-##Background
+## Background
 
 This project seeks to better understand what affects the affordability of homes in states of the US that interest us as a group.
 
-##Before You Begin
+## Before You Begin
 
 Create a new repository for this project in github.
 
