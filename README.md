@@ -2,17 +2,8 @@
 
 ## Background
 
-This project seeks to better understand what affects the affordability of homes in states of the US that interest us as a group.
+This project seeks to better understand what affects the affordability of homes in states of the US.
 
-## Before You Begin
-
-Create a new repository for this project in github.
-
-Clone the new repository to your computer.
-
-Inside the folder you just created, add new files called 'resources' and 'analysis'
-
-Push the above changes to GitHub.
 
 ## Cleaning the data
 Clean the data accordingly by removing the necessary outliers, NAN and, other unavailable data.
