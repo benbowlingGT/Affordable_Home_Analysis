@@ -1,49 +1,15 @@
-# Home_analysis
+# Affordable Home Analysis
 
 ## Background
 
 This project seeks to better understand what affects the affordability of homes in states of the US.
 
 
-## Cleaning the data
-Clean the data accordingly by removing the necessary outliers, NAN and, other unavailable data.
+## Analysis
 
-## Part 1: BASED ON THIS DATA, WHICH ATTRIBUTE (NUMBER OF BEDROOMS/BATHS, SQUARE FOOTAGE) MOST AFFECTS THE SELLING PRICE OF A HOME?
-The first requirement is to create 3 regression analysis using correlatio to showcase the following relationships:
 
-Sale price vs. house size
-Sale price vs. Bedrooms
-Sale price vs. Bathrooms
+In our analysis of over 5,926 homes across 11 different states and territories, we found that the average sale price for homes varied greatly between states. The most expensive state was Massachusetts, with an average sale price of $589,880, while the most affordable state was Puerto Rico, with an average sale price of $313,148. Pennsylvania, which accounted for 33.5% of the homes in the data set, had an average sale price of $356,104.
 
-## Part 2: What is the average sales price for each state and how does the number of rooms compare to the sales price for that state?
-Grouped the data by the states and territories and called it group_by_states
+When looking at the number of bedrooms and bathrooms in each state, we found that New Jersey had the highest average number of bedrooms at 3.7, while Rhode Island had the highest average number of bathrooms at 2.8. When considering the relationship between home size and price, we found that the larger the home, the higher the purchase price. The correlation between average home size and average sale price was 0.45, which suggests a moderate positive relationship. In Pennsylvania, the same relationship was observed, with the larger the square footage, the higher the sales price.
 
-Used the .mean() function on the bedrooms, bathrooms, and price columns
-
-Created a bar graph to show the average sale price for each state and sorted the states from highest to lowest
-
-Created a bar graph to show the average number of bedrooms and bathrooms for each state
-
-Created a scatter plot to show how the average number of rooms relate to the sales price for each state with blue circles being bedrooms and orange triangles being bathrooms
-
-## Part 3: Which state has the most affordable 3 bedroom 2 bath home?
-Identify all of the 3 bed 2 bath homes in every state
-
-Separate homes by state
-
-Sort homes by price (in decreasing order)
-
-Identify home with the least price in each state
-
-## Part 4: Average Cost of Home By State
-Used the .value_count function to determine the number of homes in each state by counting each time the state showed up in the dataset.
-
-Created a pie chart to show the amount of homes in each state
-
-Created a dataframe to locate all information for the state of Pennsylvania, which had the most number of homes
-
-Created datasets for the price & size of homes in Pennsylvania
-
-Created a scatter plot for the Pennsylvania sale price vs Pennsylvania home square footage.
-
-Calculated the correlation coefficient for the Pennsylvania sale price & Pennsylvania home size.
+Based on our findings, the best state to live in based on home size and price would be New Jersey, with an average sale price of $453,337 for a 2,323 square foot home. However, it's worth noting that Massachusetts had the lowest square footage with the highest purchase price at $589,880 for a 1,799 square foot home, which serves as an outlier. Further analysis could be done to determine why this is the case and to determine if there are any other outliers in the data set. Overall, these findings provide valuable information for the mortgage company and can be used to inform their decisions and strategies.
