@@ -6,7 +6,7 @@ This project seeks to better understand what affects the affordability of homes 
 
 ## Jupyter Notebook
 
-To conduct this analysis, we used Jupyter Notebook, a powerful open-source platform for data analysis and scientific computing. I started by reviewing over 90,000 rows of data related to homes in 11 different states and territories. To make the data more manageable, I cleared any duplicate data, reducing the row count to just over 20,000.
+To conduct this analysis, I used Jupyter Notebook, a powerful open-source platform for data analysis and scientific computing. I started by reviewing over 90,000 rows of data related to homes in 11 different states and territories. To make the data more manageable, I cleared any duplicate data, reducing the row count to just over 20,000.
 
 Next, I used Jupyter Notebook to clear out any missing values (NAN) and to bring the row count down to 5,926. I then used Jupyter's built-in functionality to calculate various statistics, such as the average sale price for homes in each state and the average number of bedrooms and bathrooms. I also used Jupyter's data visualization tools to create plots and charts to help us better understand the relationships between variables, such as the relationship between home size and price.
 
